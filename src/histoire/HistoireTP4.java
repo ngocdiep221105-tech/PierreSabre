@@ -1,4 +1,5 @@
 package histoire;
+import personnages.Commercant;
 import personnages.Humain;
 
 public class HistoireTP4 {
@@ -9,5 +10,13 @@ public class HistoireTP4 {
 		humain.boire();
 		humain.acherter("un jeu", 2);
 		humain.acherter("un kimono", 50);
+		
+		System.out.println("======================================================================================");
+		
+		Commercant commercant=new Commercant("Marco","Thé",20);
+		commercant.direBonjour();
+		commercant.seFaireExtorquer();
+		commercant.recevoir(15);
+		commercant.boire();
 	}
 }
