@@ -32,5 +32,14 @@ public class HistoireTP4 {
 		Ronin ronin=new Ronin("Roro","shochu",60);
 		ronin.direBonjour();
 		ronin.donner(commercant2);
+		
+		System.out.println("======================================================================================");
+		Commercant commercant3=new Commercant("Marco","Thé",15);
+		Yakuza yakuza2=new Yakuza("Yaku Le Noir","whisky",30,"");
+		Ronin ronin2=new Ronin("Roro","shochu",60);
+		
+		yakuza2.extorquer(commercant3);
+		ronin2.provoquer(yakuza2);
+		
 	}
 }
